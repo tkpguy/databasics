@@ -18,3 +18,25 @@ print(f'\n\t{mixed_list}')
 print(f'\n\t{inr_list}\n\n')
 
 # Appending list items
+str_list.append('Adobe')
+num_list.append(10)
+inr_list.append([12,24])
+    # Display appended lists
+print(f'\n DISPLAYING APPEDNED LIST: \n\t{str_list}')
+print(f'\n\t{num_list}')
+print(f'\n\t{mixed_list}')
+print(f'\n\t{inr_list}\n\n')
+
+# Replacing list item
+str_list[1] = 'Cognizant'
+inr_list[1][4]=0
+    # Displaying the altered lists
+print(f'\n DISPLAYING ALTERED LIST: \n\t{str_list}')
+print(f'\n\t{inr_list}\n\n')
+
+# Delete / Remove list items
+inr_list[1].remove(0)
+print(f'\n LIST VALUE AFTER DELETEING / REMOVING AN ITEM : \t{inr_list}\n\n')
+
+#
+
